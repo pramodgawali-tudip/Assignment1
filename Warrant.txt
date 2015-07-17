@@ -1,0 +1,193 @@
+Find all "vsigner", Subfolders, Find Results 1, Entire Solution, ""
+  D:\Vsigner\VS10\Bizlogic\Constant.vb(476):        Vsigner_Account = 5
+  D:\Vsigner\VS10\Bizlogic\Constant.vb(485):        'Vsigner_Exception = 15
+  D:\Vsigner\VS10\Bizlogic\DataAccess\Chart\ChartDA.vb(115):						_ds = dbAccess.ExecSPDataSet(StoredProcHolder.USPChartVsignerClient, arParams, 50)
+  D:\Vsigner\VS10\Bizlogic\DataAccess\Chart\ChartDA.vb(117):						_ds = dbAccess.ExecSPDataSet(StoredProcHolder.USPChartVsignerAdmin, arParams, 50)
+  D:\Vsigner\VS10\Bizlogic\DataAccess\Common\DBSchemaStateDA.vb(32):					arParams(2) = New SqlClient.SqlParameter("@VsignerSchemaNumber", DBSchemaState.VsignerSchemaNumber)
+  D:\Vsigner\VS10\Bizlogic\DataAccess\Report\ReportDataDA.vb(51):                    _ds = dbAccess.ExecSPDataSet(StoredProcHolder.USPRptVsignerClient, arParams)
+  D:\Vsigner\VS10\Bizlogic\DataAccess\Report\ReportDataDA.vb(53):                    _ds = dbAccess.ExecSPDataSet(StoredProcHolder.USPRptVsignerAdmin, arParams)
+  D:\Vsigner\VS10\Bizlogic\DataObject\Common\DBSchemaStateDO.vb(5):		Public Property VsignerSchemaNumber() As Integer
+  D:\Vsigner\VS10\Bizlogic\services\Common\DBSchemaStateService.vb(24):								If dr.Table.Columns.Contains("VsignerSchemaNumber") Then
+  D:\Vsigner\VS10\Bizlogic\services\Common\DBSchemaStateService.vb(25):									.VsignerSchemaNumber = DataHelper.GetIntFromDataTableCell(dr, "VsignerSchemaNumber")
+  D:\Vsigner\VS10\Bizlogic\StoredProcHolder.vb(41):    Public Const USPRptVsignerAdmin As String = "USP_Rpt_VsignerAdmin"
+  D:\Vsigner\VS10\Bizlogic\StoredProcHolder.vb(42):    Public Const USPRptVsignerClient As String = "USP_Rpt_VsignerClient"
+  D:\Vsigner\VS10\Bizlogic\StoredProcHolder.vb(452):    Public Const USPChartVsignerAdmin As String = "USP_Chart_VsignerAdmin"
+  D:\Vsigner\VS10\Bizlogic\StoredProcHolder.vb(453):    Public Const USPChartVsignerClient As String = "USP_Chart_VsignerClient"
+  D:\Vsigner\VS10\Utilities\DatabaseExceptionHandler.vb(14):    Inherits VsignerExceptionHandler
+  D:\Vsigner\VS10\Utilities\EvntLogExceptionHandler.vb(2):    Inherits VsignerExceptionHandler
+  D:\Vsigner\VS10\Utilities\VsignerExceptionHandler.vb(1):Public MustInherit Class VsignerExceptionHandler
+  D:\Vsigner\VS10\WebApp\AppManage\AddMinorPetitionerDetails.aspx(7):    <link href="../App_Themes/Vsigner/BlueStyle.css" rel="stylesheet" type="text/css" />
+  D:\Vsigner\VS10\WebApp\AppManage\AdminNotAllowed.aspx(7):	<link href="../App_Themes/Vsigner/BlueStyle.css?version=<%= Utilities.Utility.GetConfigValue("VersionNo") %>" rel="stylesheet" type="text/css" />
+  D:\Vsigner\VS10\WebApp\AppManage\ApproveBailOrder.aspx(2):    CodeBehind="ApproveBailOrder.aspx.vb" Inherits="WebApp.ApproveBailOrder" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\ApprovedRestainingOrder.aspx(3):    Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\BailDetails.aspx(2):    CodeBehind="BailDetails.aspx.vb" Inherits="WebApp.BailDetails" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\BailOrder.aspx(2):    CodeBehind="BailOrder.aspx.vb" Inherits="WebApp.BailOrder" StylesheetTheme="Vsigner" ValidateRequest="false" %>
+  D:\Vsigner\VS10\WebApp\AppManage\ChangeJudge.aspx(2):	Theme="Vsigner" MasterPageFile="~/MasterPage/PopupMaster.Master" %>
+  D:\Vsigner\VS10\WebApp\AppManage\CommonSearchPrint.aspx(2):    Inherits="WebApp.CommonSearchPrint" StylesheetTheme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\ConnectTOVideo.aspx(1):<%@ Page Language="vb" AutoEventWireup="false" MasterPageFile="~/MasterPage/Main.Master" CodeBehind="ConnectTOVideo.aspx.vb" Inherits="WebApp.ConnectTOVideo" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\CourtAdministratorDashBoard.aspx(3):    Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\DefendantOrderDetails.aspx(7):   <link href="../App_Themes/Vsigner/BlueStyle.css" type="text/css" rel="Stylesheet" />
+  D:\Vsigner\VS10\WebApp\AppManage\Execute.aspx(2):    StylesheetTheme="Vsigner" MasterPageFile="~/MasterPage/PopupMaster.Master" %>
+  D:\Vsigner\VS10\WebApp\AppManage\ForceSecretQuestion.aspx(2):	Inherits="WebApp.ForceSecretQuestion" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\ForceSecretQuestion.aspx(8):	<link href="../App_Themes/Vsigner/BlueStyle.css?version=<%# 
+Utilities.Utility.GetConfigValue("VersionNo") %>" rel="stylesheet" type="text/css" />
+  D:\Vsigner\VS10\WebApp\AppManage\ImprovedJudgeAction.aspx(3):	Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\JudgeAction.aspx(2):    CodeBehind="JudgeAction.aspx.vb" Inherits="WebApp.JudgeAction" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\JudgeScheduler.aspx(2):    CodeBehind="JudgeScheduler.aspx.vb" Inherits="WebApp.JudgeScheduler" StylesheetTheme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\JudgesideVideo.aspx(8):    <link href="../App_Themes/Vsigner/BlueStyle.css?version=<%=Utilities.Utility.GetConfigValue("VersionNo") %>" rel="stylesheet" type="text/css" />
+  D:\Vsigner\VS10\WebApp\AppManage\JudgeWarrantDetail.aspx(2):    CodeBehind="JudgeWarrantDetail.aspx.vb" Inherits="WebApp.JudgeWarrantDetail"  Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\ManageJudgeSchedule.aspx(3):	Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\ManageUser.aspx(2):    Theme="Vsigner" MasterPageFile="~/MasterPage/PopupMaster.Master" %>
+  D:\Vsigner\VS10\WebApp\AppManage\Map.aspx(2):    CodeBehind="Map.aspx.vb" Inherits="WebApp.Map" StylesheetTheme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\OfficersideVideo.aspx(7):    <link href="../App_Themes/Vsigner/BlueStyle.css?version=<%=Utilities.Utility.GetConfigValue("VersionNo") %>" rel="stylesheet" type="text/css" />
+  D:\Vsigner\VS10\WebApp\AppManage\PendingExecute.aspx(2):	CodeBehind="PendingExecute.aspx.vb" Inherits="WebApp.PendingExecute" StylesheetTheme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\ReleaseNotification.aspx(7):	<title>VSigner</title>
+  D:\Vsigner\VS10\WebApp\AppManage\ReleaseNotification.aspx(20):					Vsigner has new features included in this release.
+  D:\Vsigner\VS10\WebApp\AppManage\ReviewWarrant.aspx(2):    CodeBehind="ReviewWarrant.aspx.vb" Inherits="WebApp.ReviewWarrant" StylesheetTheme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\SearchPrint.aspx(2):	StylesheetTheme="Vsigner" MasterPageFile="~/MasterPage/PopupMaster.Master" %>
+  D:\Vsigner\VS10\WebApp\AppManage\SearchPrintBond.aspx(2):	Inherits="WebApp.SearchPrintBond" StylesheetTheme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\SearchPrintBond.aspx(8):	<link href="../App_Themes/Vsigner/BlueStyle.css?version=<%# Utilities.Utility.GetConfigValue("VersionNo") %>" rel="stylesheet" type="text/css" />
+  D:\Vsigner\VS10\WebApp\AppManage\SelectWarrantTemplate.aspx(3):	Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\ShowDocument.aspx(2):    Inherits="WebApp.ShowDocument" StylesheetTheme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\SubmitWarrant.aspx(2):    CodeBehind="SubmitWarrant.aspx.vb" Inherits="WebApp.SubmitWarrant" StylesheetTheme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\TemporaryRestrainingOrderDetails.aspx(8):    <link href="../App_Themes/Vsigner/BlueStyle.css" type="text/css" rel="Stylesheet" />
+  D:\Vsigner\VS10\WebApp\AppManage\TwoWayAuthentication.aspx(10):    <link href="../App_Themes/Vsigner/BlueStyle.css?version=<%= Utilities.Utility.GetConfigValue("VersionNo") %>"
+  D:\Vsigner\VS10\WebApp\AppManage\TwoWayAuthentication.aspx(25):                <img src="../images/header.PNG" alt="Vsigner" class="Stepslogo" />
+  D:\Vsigner\VS10\WebApp\AppManage\UnprotectiveOrderDetails.aspx(10):    <link href="../App_Themes/Vsigner/BlueStyle.css" type="text/css" rel="Stylesheet" />
+  D:\Vsigner\VS10\WebApp\AppManage\User.aspx(2):	CodeBehind="User.aspx.vb" Inherits="WebApp.User" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\User.aspx.vb(161):						notification.SendUserAccountNotification(userDO, userDO.CommunicationType, Constant.NotificationType.Vsigner_Account)
+  D:\Vsigner\VS10\WebApp\AppManage\UserActivation.aspx(2):	Inherits="WebApp.UserActivation" Theme="Vsigner" MasterPageFile="~/MasterPage/PopupMaster.Master"%>
+  D:\Vsigner\VS10\WebApp\AppManage\UserActivation.aspx.vb(95):				notification.SendUserAccountNotification(_userDO, _userDO.CommunicationType, Constant.NotificationType.Vsigner_Account)
+  D:\Vsigner\VS10\WebApp\AppManage\ViewAndPrint.aspx(1):<%@ Page Language="vb" AutoEventWireup="false" Theme="Vsigner" CodeBehind="ViewAndPrint.aspx.vb"
+  D:\Vsigner\VS10\WebApp\AppManage\ViewAndPrint.aspx(8):    <title>Vsigner</title>
+  D:\Vsigner\VS10\WebApp\AppManage\WarrantReview.aspx(2):	Inherits="WebApp.WarrantReview" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebApp\AppManage\WarrantReview.aspx(7):	<title>Vsigner-Review Warrant</title>
+  D:\Vsigner\VS10\WebApp\AppManage\WarrantReview.aspx(8):	<link href="../App_Themes/Vsigner/BlueStyle.css?version=<%# Utilities.Utility.GetConfigValue("VersionNo") %>"
+  D:\Vsigner\VS10\WebApp\BenchWarrant\SubmitBenchWarrant.aspx(2):    StylesheetTheme="Vsigner" CodeBehind="SubmitBenchWarrant.aspx.vb" Inherits="WebApp.SubmitBenchWarrant" %>
+  D:\Vsigner\VS10\WebApp\ForgotPassword.aspx(9):    <link href="App_Themes/Vsigner/BlueStyle.css?version=<%= Utilities.Utility.GetConfigValue("VersionNo") %>" rel="stylesheet" type="text/css" />
+  D:\Vsigner\VS10\WebApp\ForgotPassword.aspx.vb(77):			notification.SendUserAccountNotification(userDO, userDO.CommunicationType, Constant.NotificationType.Vsigner_Account)
+  D:\Vsigner\VS10\WebApp\Global.asax.vb(31):					Response.Redirect("~/VsignerError.aspx")
+  D:\Vsigner\VS10\WebApp\js\JQueryModalPopups.js(245):    $("#VsignerCompatibilityDiv").dialog({
+  D:\Vsigner\VS10\WebApp\js\JQueryModalPopups.js(298):        $('#VsignerCompatibilityDiv').dialog('open');
+  D:\Vsigner\VS10\WebApp\Login.aspx(11):	<link href="App_Themes/Vsigner/BlueStyle.css?version=<%= Utilities.Utility.GetConfigValue("VersionNo") %>"
+  D:\Vsigner\VS10\WebApp\Login.aspx(61):			<div id="VsignerCompatibilityDiv" title="WarrantNow compatibility check">
+  D:\Vsigner\VS10\WebApp\Login.aspx(100):	<script src="js/VsignerCompatibility.js" type="text/javascript"></script>
+  D:\Vsigner\VS10\WebApp\Login.aspx(116):			$("#VsignerCompatibilityDiv").dialog({
+  D:\Vsigner\VS10\WebApp\Login.aspx(127):			VsignerCompatibility();
+  D:\Vsigner\VS10\WebApp\Login.aspx(130):		function VsignerCompatibility() {
+  D:\Vsigner\VS10\WebApp\Login.aspx(132):				$('#VsignerCompatibilityDiv').dialog('open');
+  D:\Vsigner\VS10\WebApp\Login.aspx(154):			$('#VsignerCompatibilityDiv').append("<div class='popup-container'><div class='column-header'><div class='header-text-style'>Software</div><div class='header-text-style'>Version</div><div class='header-text-style'>Compatibility status</div></div><div class='column-content'><div class='content-text-style'>Browser</div><div class='content-text-style'> " + info.browser + " (" + browser_version + ") </div><div class='content-text-style compatibility-text-style'>" + browserCompatibility + "</div></div><div class='column-content'><div class='content-text-style'>PDF Reader</div><div class='content-text-style'>" + info.acrobatVersion + "</div><div class='content-text-style compatibility-text-style'>" + info.acrobat + "</div></div><div class='column-content'><div class='content-text-style'>Cookies enabled</div><div class='content-text-style'>" + cookie + "</div><div class='content-text-style compatibility-text-style'>" + cookie + "</div></div></div>");
+  D:\Vsigner\VS10\WebApp\Login.aspx(155):			$('#VsignerCompatibilityDiv').append("<div class='dwnbrows'><center><i>Download latest version</i></center><br/><div class='browser-container firefox'><a class='dwnlink' href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'><img src='Images/firefox.png' alt='' class='logodwn' /><div class='browser-name-style'> Mozilla</div></a></div><div class='browser-container chrome'><a class='dwnlink' target='_blank' href='https://www.google.com/intl/en/chrome/browser/'> <img src='Images/chrome.jpg' alt='' class='logodwn' /><div class='browser-name-style'> Chrome</div></a></div><div class='browser-container'><a class='dwnlink' href='http://get.adobe.com/reader/' target='_blank'><img src='Images/Adobe_Reader.png' alt='' class='logodwn brw-img' /><div class='browser-name-style'>Adobe Reader</div></a></div></div>");
+  D:\Vsigner\VS10\WebApp\Login.aspx(156):			$('#VsignerCompatibilityDiv').append("<div class='fancybox'><a href='Images/cookies-enable.jpg'>To enable cookies check this link</a></div>");
+  D:\Vsigner\VS10\WebApp\Login.aspx.vb(116):                                VsignerPortalLogin(userDO)
+  D:\Vsigner\VS10\WebApp\Login.aspx.vb(224):    Public Sub VsignerPortalLogin(ByRef UserDO As UserDO)
+  D:\Vsigner\VS10\WebApp\MasterPage\Main.Master(9):    <title>VSigner</title>
+  D:\Vsigner\VS10\WebApp\MasterPage\Main.Master(10):    <link href="../App_Themes/Vsigner/BlueStyle.css?version=<%# Utilities.Utility.GetConfigValue("VersionNo") %>"
+  D:\Vsigner\VS10\WebApp\MasterPage\Main.Master(56):                    <asp:ScriptReference Path="~/js/VsignerCompatibility.js" />
+  D:\Vsigner\VS10\WebApp\MasterPage\Main.Master(80):                <img src="../images/header.PNG" alt="Vsigner" class="logo" />
+  D:\Vsigner\VS10\WebApp\MasterPage\Main.Master(279):    <div id="VsignerCompatibilityDiv" title="Vsigner compatibility check">
+  D:\Vsigner\VS10\WebApp\MasterPage\Main.Master(442):            $('#VsignerCompatibilityDiv').append("<div class='popup-container'><div class='column-header'><div class='header-text-style'>Software</div><div class='header-text-style'>Version</div><div class='header-text-style'>Compatibility status</div></div><div class='column-content'><div class='content-text-style'>Browser</div><div class='content-text-style'> " + info.browser + " (" + browser_version + ") </div><div class='content-text-style compatibility-text-style'>" + browserCompatibility + "</div></div><div class='column-content'><div class='content-text-style'>PDF Reader</div><div class='content-text-style'>" + info.acrobatVersion + "</div><div class='content-text-style compatibility-text-style'>" + info.acrobat + "</div></div><div class='column-content'><div class='content-text-style'>Cookies enabled</div><div class='content-text-style'>" + cookie + "</div><div class='content-text-style compatibility-text-style'>" + cookie + "</div></div></div>");
+  D:\Vsigner\VS10\WebApp\MasterPage\Main.Master(443):            $('#VsignerCompatibilityDiv').append("<div class='dwnbrows'><center><i>Download latest version</i></center><br/><div class='browser-container firefox'><a class='dwnlink' href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'><img src='../images/firefox.png' alt='' class='logodwn' /><div class='browser-name-style'> Mozilla</div></a></div><div class='browser-container chrome'><a class='dwnlink' target='_blank' href='https://www.google.com/intl/en/chrome/browser/'> <img src='../images/chrome.jpg' alt='' class='logodwn' /><div class='browser-name-style'> Chrome</div></a></div><div class='browser-container'><a class='dwnlink' href='http://get.adobe.com/reader/' target='_blank'><img src='../images/Adobe_Reader.png' alt='' class='logodwn brw-img' /><div class='browser-name-style'>Adobe Reader</div></a></div></div>");
+  D:\Vsigner\VS10\WebApp\MasterPage\Main.Master(444):            $('#VsignerCompatibilityDiv').append("<div><a href='../images/cookies-enable.jpg' target='_blank'>To enable cookies check this link</a></div>");
+  D:\Vsigner\VS10\WebApp\MasterPage\Main.Master(459):    <%--	<script type="text/javascript">		var head = document.getElementsByTagName("head")[0]; var link = document.createElement("link"); link.rel = "stylesheet"; link.type = "text/css"; link.href = "https://54.167.24.163/useresponse/public/themes/vsigner/assets/css/widget.css"; link.media = "all"; head.appendChild(link);</script>
+  D:\Vsigner\VS10\WebApp\MasterPage\PopupMaster.Master(6):    <link href="../App_Themes/Vsigner/BlueStyle.css?version=<%# Utilities.Utility.GetConfigValue("VersionNo") %>" rel="stylesheet" type="text/css" />
+  D:\Vsigner\VS10\WebApp\Notification\PublishNotification.vb(211):			'Ntype.Id = Constant.NotificationType.Vsigner_Exception
+  D:\Vsigner\VS10\WebApp\Settings.config(4):  <add key="AdminRootFolder" value="D:\vsigner\VS10\WebAppAdmin"/>
+  D:\Vsigner\VS10\WebApp\UserControl\ReportDisplayControl.ascx.vb(65):                        CrtGen.LogoImagePath = Utility.GetConfigValue("AdminRootFolder") + "\Images\Vsigner_logo.png"
+  D:\Vsigner\VS10\WebApp\VsignerError.aspx(1):<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="VsignerError.aspx.vb"
+  D:\Vsigner\VS10\WebApp\VsignerError.aspx(2):    Inherits="WebApp.VsignerError" %>
+  D:\Vsigner\VS10\WebApp\VsignerError.aspx(7):    <title>Vsigner Error</title>
+  D:\Vsigner\VS10\WebApp\VsignerError.aspx(40):            We're sorry you encountered a problem using Vsigner. 
+  D:\Vsigner\VS10\WebApp\VsignerError.aspx.designer.vb(14):Partial Public Class VsignerError
+  D:\Vsigner\VS10\WebApp\VsignerError.aspx.vb(1):Public Class VsignerError
+  D:\Vsigner\VS10\WebApp\web.config.template(16):    <add key="SaleEmail" value="sale@vsigner.com"/>
+  D:\Vsigner\VS10\WebApp\web.config.template(29):    <add name="dbConnStr" providerName="System.Data.SqlClient" connectionString="Database=Vsigner;Server=localhost;Integrated Security=False;User=sa;Password=Iams3xy;Connect Timeout=120;" />
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx(17):	<script src="js/VsignerCompatibility.js" type="text/javascript"></script>
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx(54):				<%--<a id="hplCompatibility" target='parent' href="#">Check Vsigner Compatibility</a>	</div>
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx(55):				<div id="VsignerCompatibilityDiv" title="Vsigner compatibility check">
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx(73):			$("#VsignerCompatibilityDiv").dialog({
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx(84):			VsignerCompatibility()
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx(87):		function VsignerCompatibility() {
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx(89):				$('#VsignerCompatibilityDiv').dialog('open');
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx(110):			$('#VsignerCompatibilityDiv').append("<div class='popup-container'><div class='column-header'><div class='header-text-style'>Software</div><div class='header-text-style'>Version</div><div class='header-text-style'>Compatibility status</div></div><div class='column-content'><div class='content-text-style'>Browser</div><div class='content-text-style'> " + info.browser + " (" + browser_version + ") </div><div class='content-text-style compatibility-text-style'>" + browserCompatibility + "</div></div><div class='column-content'><div class='content-text-style'>PDF Reader</div><div class='content-text-style'>" + info.acrobatVersion + "</div><div class='content-text-style compatibility-text-style'>" + info.acrobat + "</div></div><div class='column-content'><div class='content-text-style'>Cookies enabled</div><div class='content-text-style'>" + cookie + "</div><div class='content-text-style compatibility-text-style'>" + cookie + "</div></div></div>");
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx(111):			$('#VsignerCompatibilityDiv').append("<div class='dwnbrows'><center><i>Download latest version</i></center><br/><div class='browser-container firefox'><a class='dwnlink' href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'><img src='Images/firefox.png' alt='' class='logodwn' /><div class='browser-name-style'> Mozilla</div></a></div><div class='browser-container chrome'><a class='dwnlink' target='_blank' href='https://www.google.com/intl/en/chrome/browser/'> <img src='Images/chrome.jpg' alt='' class='logodwn' /><div class='browser-name-style'> Chrome</div></a></div><div class='browser-container'><a class='dwnlink' href='http://get.adobe.com/reader/' target='_blank'><img src='Images/Adobe_Reader.png' alt='' class='logodwn brw-img' /><div class='browser-name-style'>Adobe Reader</div></a></div></div>");
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx(112):			$('#VsignerCompatibilityDiv').append("<div class='fancybox'><a href='Images/cookies-enable.jpg'>To enable cookies check this link</a></div>");
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx.vb(19):                    If Request.Cookies("myCookie").Item("vsignerclient") IsNot Nothing Then
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx.vb(20):                        txtUserName.Text = Request.Cookies("myCookie").Item("vsignerclient").ToString
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx.vb(45):                myCookie.Values.Add("vsignerclient", txtUserName.Text)
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx.vb(90):                                VsignerPortalLogin(userDO)
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx.vb(125):                If Request.Cookies("myCookie").Item("vsignerclient") IsNot Nothing Then
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx.vb(127):                    txtUserName.Text = cookie.Values("vsignerclient")
+  D:\Vsigner\VS10\WebApp\WebsiteLogin.aspx.vb(181):    Public Sub VsignerPortalLogin(ByRef UserDO As UserDO)
+  
+  
+  //----Done all changes from Vsigner to WarrantNow in WebApp
+  
+  
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\AddClient.aspx(2):    CodeBehind="AddClient.aspx.vb" Inherits="WebAppAdmin.AddClient" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\AddMasterTemplate.aspx(2):	Inherits="WebAppAdmin.AddMasterTemplate" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\AddUpdateJudicalDistrict.aspx(2):	Inherits="WebAppAdmin.AddUpdateJudicalDistrict" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\AddUpdateParish.aspx(2):	Inherits="WebAppAdmin.AddUpdateParish" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\AdminUserDetails.aspx.vb(127):                        notification.SendUserAccountNotification(userDO, userDO.CommunicationType, Constant.NotificationType.Vsigner_Account)
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\AdminWarrantDetail.aspx(2):	Inherits="WebAppAdmin.AdminWarrantDetail" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\AppNotification.aspx.vb(53):						''''BindControl(row.userDO.Email, "Vsigner Alert!!", emailtext)
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\AppNotification.aspx.vb(73):        _util.SendEmail(fromEMail, "Vsigner Alert!!", body)
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\BulkEmail.aspx(2):	Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\Changepswd.aspx(2):	CodeBehind="Changepswd.aspx.vb" Inherits="WebAppAdmin.Changepswd" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\Clients.aspx(2):	CodeBehind="Clients.aspx.vb" Inherits="WebAppAdmin.Clients" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\ClientWarrantFlow.aspx(2):    CodeBehind="ClientWarrantFlow.aspx.vb" Inherits="WebAppAdmin.ClientWarrantFlow" Theme="Vsigner"%>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\DashBoard.aspx(2):    CodeBehind="DashBoard.aspx.vb" Inherits="WebAppAdmin.DashBoard" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\ForceChangePwd.aspx(2):    Inherits="WebAppAdmin.ForceChangePwd" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\JudgeWarrants.aspx(3):	Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\JudicialUserDetails.aspx.vb(136):                    notification.SendUserAccountNotification(userDO, userDO.CommunicationType, Constant.NotificationType.Vsigner_Account)
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\ManageAdditionalAttribute.aspx(2):CodeBehind="ManageAdditionalAttribute.aspx.vb" Inherits="WebAppAdmin.ManageAdditionalAttribute" Theme="Vsigner"%>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\ManageApplicationZones.aspx(3):	Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\ManageGroup.aspx(2):	Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\ManageJudicalDistrict.aspx(3):	Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\ManageJudicialUser.aspx(1):<%@ Page Title="" Language="vb" AutoEventWireup="false" Theme="Vsigner" CodeBehind="ManageJudicialUser.aspx.vb"
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\ManageLawEnforcementUser.aspx(2):	Inherits="WebAppAdmin.ManageLawEnforcementUser" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\ManageOffense.aspx(2):	Inherits="WebAppAdmin.ManageOffense" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\ManageTopMenu.aspx(2):    CodeBehind="ManageTopMenu.aspx.vb" Inherits="WebAppAdmin.ManageTopMenu" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\Map.aspx(2):    CodeBehind="Map.aspx.vb" Inherits="WebAppAdmin.Map" StylesheetTheme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\MasterTemplateDetail.aspx(3):	Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\Offense.aspx(2):	CodeBehind="Offense.aspx.vb" Inherits="WebAppAdmin.Offense" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\SearchPrint.aspx(2):    CodeBehind="SearchPrint.aspx.vb" Inherits="WebAppAdmin.SearchPrint" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\SendEmail.aspx(2):	Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\UpdateClientDetail.aspx(3):	Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\UpdateClientDetail.aspx.vb(257):							notification.SendUserAccountNotification(userDO, userDO.CommunicationType, Constant.NotificationType.Vsigner_Account)
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\UpdateMasterChildTemplates.aspx(3):    Inherits="WebAppAdmin.UpdateMasterChildTemplates" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\UserActivation.aspx(2):	Inherits="WebAppAdmin.UserActivation" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\UserActivation.aspx.vb(94):				notification.SendUserAccountNotification(_userDO, _userDO.CommunicationType, Constant.NotificationType.Vsigner_Account)
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\UserAuditTrail.aspx(2):    Inherits="WebAppAdmin.UserAuditTrail" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\UserProfile.aspx(2):	CodeBehind="UserProfile.aspx.vb" Inherits="WebAppAdmin.UserProfile" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\UserWarrants.aspx(2):	CodeBehind="UserWarrants.aspx.vb" Inherits="WebAppAdmin.UserWarrants" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\AppManage\ViewAndPrint.aspx(7):    <title>Vsigner</title>
+  D:\Vsigner\VS10\WebAppAdmin\ForgotPassword.aspx(2):    Inherits="WebAppAdmin.ForgotPassword" Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\ForgotPassword.aspx.vb(82):			notification.SendUserAccountNotification(userDO, userDO.CommunicationType, Constant.NotificationType.Vsigner_Account)
+  D:\Vsigner\VS10\WebAppAdmin\Global.asax.vb(33):					Response.Redirect("~/VsignerError.aspx")
+  D:\Vsigner\VS10\WebAppAdmin\Login.aspx(2):    Theme="Vsigner" %>
+  D:\Vsigner\VS10\WebAppAdmin\MasterPage\Main.Master(9):	<title>VSigner</title>
+  D:\Vsigner\VS10\WebAppAdmin\ReportDataSet\sp_RptApprovedWarrantByClientID.xsd(12):              <DbSource ConnectionRef="dbConnStr (Web.config)" DbObjectName="Vsigner.dbo.sp_RptApprovedWarrantByClient" DbObjectType="StoredProcedure" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+  D:\Vsigner\VS10\WebAppAdmin\Settings.config(4):  <add key="AdminRootFolder" value="D:\vsigner\VS10\WebAppAdmin"/>
+  D:\Vsigner\VS10\WebAppAdmin\UserControl\EmailTemplate.ascx(31):                                                                <img id="yui_3_7_2_5_1351566996331_530" alt="Vsigner.com" border="0" src="https://www.vsigner.com/Vsigner/Images/header.PNG"
+  D:\Vsigner\VS10\WebAppAdmin\UserControl\EmailTemplate.ascx(33):                                                                    width: 281px;" title="Vsigner.com" />
+  D:\Vsigner\VS10\WebAppAdmin\UserControl\EmailTemplate.ascx(63):                                                                                    Thank you for using Vsigner!</p>
+  D:\Vsigner\VS10\WebAppAdmin\UserControl\EmailTemplate.ascx(97):                                                                                        href="https://www.vsigner.com" rel="nofollow" style="text-decoration: underline;
+  D:\Vsigner\VS10\WebAppAdmin\UserControl\EmailTemplate.ascx(98):                                                                                        color: rgb(35, 71, 134); outline: 0px; font-weight: bold;" target="_blank">Vsigner</a><span
+  D:\Vsigner\VS10\WebAppAdmin\UserControl\EmailTemplate.ascx(123):                                                    © 2012<span class="Apple-converted-space">&nbsp;</span><a href="https://www.vsigner.com"
+  D:\Vsigner\VS10\WebAppAdmin\UserControl\EmailTemplate.ascx(125):                                                        font-family: verdana, arial; font-size: 10px;" target="_blank">Vsigner</a>,
+  D:\Vsigner\VS10\WebAppAdmin\UserControl\ReportDisplayControl.ascx.vb(65):                        CrtGen.LogoImagePath = Utility.GetConfigValue("AdminRootFolder") + "\Images\Vsigner_logo.png"
+  D:\Vsigner\VS10\WebAppAdmin\VsignerError.aspx(1):<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="VsignerError.aspx.vb"
+  D:\Vsigner\VS10\WebAppAdmin\VsignerError.aspx(2):    Inherits="WebAppAdmin.VsignerError" %>
+  D:\Vsigner\VS10\WebAppAdmin\VsignerError.aspx(7):    <title>Vsigner Error</title>
+  D:\Vsigner\VS10\WebAppAdmin\VsignerError.aspx(40):            We're sorry you encountered a problem using Vsigner. 
+  D:\Vsigner\VS10\WebAppAdmin\VsignerError.aspx.designer.vb(14):Partial Public Class VsignerError
+  D:\Vsigner\VS10\WebAppAdmin\VsignerError.aspx.vb(1):Public Class VsignerError
+  D:\Vsigner\VS10\WebAppAdmin\web.config.template(13):    <add key="AdminRootFolder" value="D:\vsigner\VS10\WebAppAdmin"/>
+  D:\Vsigner\VS10\WebAppAdmin\WebApp.Publish.xml(2):  <publishTarget publishUrl="M:\AppPublish\VsignerAdmin\">
+  D:\Vsigner\VS10\WebAppAdmin\WebApp.Publish.xml(336):    <file relUrl="App_Themes/Vsigner/Vsigner.skin" publishTime="09/14/2010 12:58:18" />
+  D:\Vsigner\VS10\WebAppAdmin\WebApp.Publish.xml(705):    <file relUrl="App_Themes/Vsigner/Vsigner.skin" publishTime="05/24/2010 14:24:29" />
+  D:\Vsigner\VS10\WebAppAdmin\WebApp.Publish.xml(835):    <file relUrl="App_Themes/Vsigner/Vsigner.skin" publishTime="08/18/2009 02:18:00" />
+  D:\Vsigner\VS10\WebAppAdmin\WebApp.vbproj(1154):    <Content Include="App_Themes\Vsigner\Vsigner.skin" />
+  D:\Vsigner\VS10\WebAppAdmin\WebApp.vbproj.user(15):          <PublishTargetLocation>M:\AppPublish\VsignerAdmin\</PublishTargetLocation>
+  Matching lines: 185    Matching files: 120    Total files searched: 1940
